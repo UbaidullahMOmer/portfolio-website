@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-
+import ubaidullahImg from "@/public/ubaidullah.png";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://ubaidullah3.netlify.app/assets/img/perfil.png"
+              src={ubaidullahImg}
               alt="Ubaidullah portrait"
               width="192"
               height="192"
