@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Weather_Web_AppImg from "@/public/Weather_Web_App.png";
+import dzFoodImg from "@/public/Dz_food.png";
+import Text_EditorImg from "@/public/Text_Editor.png";
+import CalendarImg from "@/public/Calendar.png";
 
 export const links = [
   {
@@ -62,46 +63,55 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dz Food",
     description:
-      "I worked as a font-end developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      'I working as a font-end developer on this project for 1 years. Users can give public feedback to companies.',
+    tags: ["HTML", "CSS", "React", "Logical Coding", "JS Functions"],
+    imageUrl: dzFoodImg,
+    url: "https://ubaidullahcalendar.netlify.app/"
   },
   {
-    title: "rmtDev",
+    title: "Shaduler Calendar",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      'I Developed a calendar component I created this calendar from scratch and continually improved its capabilities during my spare time.',
+    tags: ["HTML", "CSS", "React", "Logical Coding", "JS Functions"],
+    imageUrl: CalendarImg,
+    url: "https://ubaidullahcalendar.netlify.app/"
   },
   {
-    title: "Word Analytics",
+    title: "Text Editor",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I designed and implemented a custom text editor, incorporating a wide range of features and functionalities to enhance the user experience.",
+    tags: ["HTML", "CSS", "React", "Logical Coding", "Js Functions"],
+    imageUrl: Text_EditorImg,
+    url: "https://ubaidullahtexteditor.netlify.app/"
+  },
+  {
+    title: "Weather Web App",
+    description:
+      "I created this Weather Web App. Within this project, users can search for weather information for any city or country, expanding my proficiency in handling API data.",
+    tags: ["HTML", "CSS", "React", "Logical Coding", "API Integreation"],
+    imageUrl: Weather_Web_AppImg,
+    url: "https://ubaidullahweather.netlify.app/"
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Bootstrap",
+  "Tailwind",
+  "Meaturial UI",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
+  "Github",
   "MongoDB",
-  "Redux",
+  "Redux Toolkit",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
