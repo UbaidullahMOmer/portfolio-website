@@ -101,5 +101,4 @@ export const skillsData = [
   "Express",
   "Git",
   "Github (GitLab)",
-  "PostgreSQL",
 ] as const;
