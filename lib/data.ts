@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Front-End Internship",
     location: "RYK, Punjab",
     description:
-      "I completed my 6 month Internship in Void Soft Technology. I also upskilled my front-end skills.",
+      "I completed my 6-month Internship in Void Soft Technology. I also upskilled my front-end skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2021",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Font-end Developer",
     location: "Houston, TX",
     description:
-      "I'm now a font-end developer working on Danzee Tech. My stack includes React, JavaScript, Material UI and Redux Toolkit. ",
+      "I'm now a front-end developer working on Danzee Tech. My stack includes React, JavaScript, Material UI and Redux Toolkit. ",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
@@ -57,10 +57,10 @@ export const projectsData = [
   {
     title: "Dz Food",
     description:
-      'I working as a font-end developer on this project for 1 years. Users can give public feedback to companies.',
+      'I working as a front-end developer on this project for 1.5+ years. Users can give public feedback to companies.',
     tags: ["HTML", "CSS", "React", "Logical Coding", "JS Functions"],
     imageUrl: dzFoodImg,
-    url: "https://ubaidullahcalendar.netlify.app/"
+    url: "https://www.dzfood.danzeetech.com/"
   },
   {
     title: "Shaduler Calendar",
@@ -82,7 +82,7 @@ export const projectsData = [
     title: "Weather Web App",
     description:
       "I created this Weather Web App. Within this project, users can search for weather information for any city or country, expanding my proficiency in handling API data.",
-    tags: ["HTML", "CSS", "React", "Logical Coding", "API Integreation"],
+    tags: ["HTML", "CSS", "React", "Logical Coding", "API Integration"],
     imageUrl: Weather_Web_AppImg,
     url: "https://ubaidullahweather.netlify.app/"
   },
