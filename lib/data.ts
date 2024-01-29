@@ -58,7 +58,7 @@ export const projectsData = [
     title: "Dz Food",
     description:
       'I working as a front-end developer on this project for 1.5+ years. Users can give public feedback to companies.',
-    tags: ["HTML/CSS", "JavaScript", "React", "Logical Coding", "I18Next", "Quick-Pay", "API Integration", "Custome Components", "Custom Hooks"],
+    tags: ["HTML/CSS", "JavaScript", "React", "I18Next", "Quick-Pay", "API Integration", "Custome Components", "Custom Hooks"],
     imageUrl: dzFoodImg,
     url: "https://www.dzfood.danzeetech.com/"
   },
