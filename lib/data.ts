@@ -45,7 +45,7 @@ export const experiencesData = [
   },
   {
     title: "Font-end Developer",
-    location: "Houston, TX",
+    location: "RYK, Punjab",
     description:
       "I'm now a front-end developer working on Danzee Tech. My stack includes React, JavaScript, Material UI and Redux Toolkit. ",
     icon: React.createElement(FaReact),
