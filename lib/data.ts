@@ -73,7 +73,7 @@ export const projectsData = [
   {
     title: "Text Editor",
     description:
-      "I designed and implemented a custom text editor, incorporating a wide range of features and functionalities to enhance the user experience.",
+      "I designed and implemented a custom text editor, incorporating a wide range of features and functionalities to improve my logical coding skill.",
     tags: ["HTML", "CSS", "React", "Logical Coding", "Js Functions"],
     imageUrl: Text_EditorImg,
     url: "https://ubaidullahtexteditor.netlify.app/"
@@ -97,6 +97,7 @@ export const skillsData = [
   "JavaScript",
   "React",
   "Redux Toolkit",
+  "I18Next",
   "Node.js",
   "Express",
   "Git",
